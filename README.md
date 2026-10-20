@@ -1,9 +1,10 @@
-# Proyecto T2 - Android + Spring Boot + H2
+# Proyecto T2 - Android + Spring Boot (API REST) + BD H2 + SQLLite
 
 Este repositorio contiene dos partes principales:
 
 1. Una aplicación Android nativa desarrollada en Kotlin.
 2. Una API REST en Spring Boot con Java 25 y base de datos H2 para gestionar lentes.
+3. SQLLite para cachear los lentes seleccionados
 
 La idea general es mantener una arquitectura simple y clara: la app móvil consume la API REST de lentes, y el backend ofrece los métodos CRUD necesarios para gestionar el catálogo.
 
@@ -31,7 +32,7 @@ Tecnologías:
 - RecyclerView
 - Retrofit
 - Gson
-- Material Components
+- SQLLiTE
 
 ### 1.2 API Spring Boot (Java 25)
 Ubicación:
@@ -49,6 +50,7 @@ Tecnologías:
 - Spring Web
 - Spring Data JPA
 - H2 Database
+- SQLLite
 
 ---
 
@@ -71,7 +73,6 @@ T2/
 ├── settings.gradle.kts
 ├── gradlew
 ├── gradlew.bat
-├── DOCUMENTACION_TECNICA_PROYECTO.md
 ├── README.md
 └── ...
 ```
@@ -127,7 +128,7 @@ La app incluye un login simulado para administrador con credenciales mock:
 - usuario: `admin`
 - contraseña: `1234`
 
-Esto permite entrar sin backend de autenticación real, como parte del proyecto académico.
+Esto permite entrar sin backend de autenticación real, como parte del proyecto final.
 
 ### 4.2 Dashboard del administrador
 Una vez autenticado, la app muestra un panel para:
@@ -182,7 +183,7 @@ En Android Studio:
 ### Android
 - Retrofit 3
 - Converter Gson
-- Glide
+- SQLLIte
 - Navigation Components
 - RecyclerView
 - Material Components
@@ -199,34 +200,15 @@ En Android Studio:
 
 ---
 
-## 8. Recomendaciones futuras
 
-- Crear DTOs para evitar exponer directamente entidades JPA
-- Añadir validaciones con Bean Validation (`@Valid`)
-- Agregar manejo centralizado de excepciones
-- Implementar JWT real para autenticación
-- Separar la API en capas más limpias: controller, service, repository, model
-- Añadir tests unitarios e integración para la API
-
----
-
-## 9. Resumen
+## 8. Resumen
 
 Este proyecto combina dos capas:
 
 - Android app para la experiencia móvil del usuario
 - Spring Boot + H2 para la lógica de negocio y persistencia del catálogo de lentes
 
-La arquitectura es simple, clara y adecuada para un proyecto académico o de práctica profesional con enfoque en CRUD y consumo de APIs REST.
+
 
 ---
 
-## 10. Documentación adicional
-
-También existe una documentación técnica previa en:
-- [DOCUMENTACION_TECNICA_PROYECTO.md](DOCUMENTACION_TECNICA_PROYECTO.md)
-
-Si quieres, en el siguiente paso puedo dejarte también:
-- un README más formal para GitHub,
-- un README más corto para entregar al docente,
-- o una versión con ejemplos de request/response de la API.
