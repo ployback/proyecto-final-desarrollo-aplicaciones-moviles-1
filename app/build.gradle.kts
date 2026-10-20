@@ -3,13 +3,13 @@ plugins {
 }
 
 android {
-    namespace = "pe.edu.cibertec.t2"
+    namespace = "pe.edu.cibertec.final"
     compileSdk {
         version = release(37)
     }
 
     defaultConfig {
-        applicationId = "pe.edu.cibertec.t2"
+        applicationId = "pe.edu.cibertec.final"
         minSdk = 24
         targetSdk = 37
         versionCode = 1

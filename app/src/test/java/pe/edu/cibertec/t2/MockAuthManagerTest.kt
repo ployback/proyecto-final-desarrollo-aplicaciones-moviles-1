@@ -1,4 +1,4 @@
-package pe.edu.cibertec.t2
+package pe.edu.cibertec.final
 
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
