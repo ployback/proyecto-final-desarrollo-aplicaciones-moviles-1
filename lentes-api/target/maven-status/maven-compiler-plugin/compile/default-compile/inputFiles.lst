@@ -1,0 +1,9 @@
+/home/mijaco/personal/cibertec/Desarrollo móvil 1/t2/lentes-api/src/main/java/com/example/lentesapi/LentesApiApplication.java
+/home/mijaco/personal/cibertec/Desarrollo móvil 1/t2/lentes-api/src/main/java/com/example/lentesapi/controller/CreateLenteController.java
+/home/mijaco/personal/cibertec/Desarrollo móvil 1/t2/lentes-api/src/main/java/com/example/lentesapi/controller/DeleteLenteController.java
+/home/mijaco/personal/cibertec/Desarrollo móvil 1/t2/lentes-api/src/main/java/com/example/lentesapi/controller/GetAllLentesController.java
+/home/mijaco/personal/cibertec/Desarrollo móvil 1/t2/lentes-api/src/main/java/com/example/lentesapi/controller/GetLenteByIdController.java
+/home/mijaco/personal/cibertec/Desarrollo móvil 1/t2/lentes-api/src/main/java/com/example/lentesapi/controller/UpdateLenteController.java
+/home/mijaco/personal/cibertec/Desarrollo móvil 1/t2/lentes-api/src/main/java/com/example/lentesapi/entity/Lente.java
+/home/mijaco/personal/cibertec/Desarrollo móvil 1/t2/lentes-api/src/main/java/com/example/lentesapi/repository/LenteRepository.java
+/home/mijaco/personal/cibertec/Desarrollo móvil 1/t2/lentes-api/src/main/java/com/example/lentesapi/service/LenteService.java

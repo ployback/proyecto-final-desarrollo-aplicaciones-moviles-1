@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">t2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="texthome">Home</string>
+    <string name="textpersonajes">Personajes</string>
+    <string name="textusuarios">Usuarios</string>
+    <string name="textregistro">Registro</string>
+</resources>
